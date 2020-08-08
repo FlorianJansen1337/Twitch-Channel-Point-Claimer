@@ -27,6 +27,13 @@ The following variables are necessary to run the tool
 | TWITCH_USERNAME |  string | The username of the account you would like to watch the stream with and have bonus Channel Points rewarded to. |
 | TWITCH_PASS |  string | The password of the account you would like to watch the stream with and have bonus Channel Points rewarded to. |
 
+Example
+```
+TWITCH_URL=https://www.twitch.tv/KarQ
+TWITCH_USERNAME=username
+TWITCH_PASS=password
+```
+
 ## Usage
 
 First install all the `node-modules` required by executing the command
