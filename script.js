@@ -2,7 +2,7 @@ require('dotenv').config();
 const { Builder, By, Key, until } = require('selenium-webdriver');
 let driver = new Builder().forBrowser('chrome').build();
 
-//possibly too many / unnecessary awaits but it works and it runs fast so I dont really care for now
+//possibly too many / unnecessary awaits but it works and it runs fast so I don't really care for now
 (async () => {
     //stream to farm points in
     await driver.get(process.env.TWITCH_URL);
